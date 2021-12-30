@@ -1,0 +1,42 @@
+<html>
+<head>
+</head>
+<body>
+    <form name="myform" method="POST">
+
+        <label>First Name:</label>
+        <input type="text" id="firstN" required onkeyup="validate()" />
+        <span style='color:red' id="errorFirst"></span><br><br>
+
+
+        <label>Last Name:</label>
+        <input type="text" id="lastN" required onkeyup="validate();" />
+        <span style='color:red' id="errorLast"></span><br><br>
+
+        <label>Email:</label>
+        <input type="text" id="email" required onkeyup="validate();" />
+        <span style='color:red' id="errorEmail"></span><br><br>
+
+
+        <label>User Id:</label>
+        <input type="text" id="uid" required onkeyup="validate();" />
+        <span style='color:red' id="errorUid"></span><br><br>
+
+
+        <label>Password:</label>
+        <input type="password" id="password" required onkeyup="validate();" />
+        <span style='color:red' id="errorPassword"></span><br><br>
+
+
+        <label>Confirm Password:</label>
+        <input type="password" id="confirm" required onkeyup="validate();" />
+        <span style='color:red' id="errorConfirm"></span><br><br>
+
+
+        <input type="submit" id="sub" value="submit"  disabled />
+        <span style='color:red' id="errorFinal"></span><br><br>
+    </form>
+    <script src="bitu.js"></script>
+</body>
+
+</html>
